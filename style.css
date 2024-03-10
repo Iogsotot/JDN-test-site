@@ -17,6 +17,28 @@ aside {
 	grid-area: aside;
 }
 
+/* === HIDING STYLES === */
+.hidden-display {
+	display: none
+}
+
+.hidden-visibility {
+	visibility: hidden;
+}
+
+.hidden-opacity {
+	opacity: 0;
+}
+
+.hidden-width {
+	width: 0px;
+}
+
+.hidden-height {
+	height: 0px;
+}
+
+
 /* === BASE HEADING === */
 
 h1 {
