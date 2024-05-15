@@ -2,7 +2,7 @@ main {
 	display: grid;
 	grid-template-areas: 
 	"section-one aside"
-	"section-two aside"
+	"section-two section-tree"
 }
 
 .section--one {
@@ -12,6 +12,11 @@ main {
 .section--two {
 	grid-area: section-two;
 }
+
+.section--tree {
+	grid-area: section-tree;
+}
+
 
 aside {
 	grid-area: aside;
